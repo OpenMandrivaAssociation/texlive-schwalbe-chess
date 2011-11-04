@@ -49,6 +49,7 @@ turn has a dependency on the bartel-chess-fonts.
 #- source
 %doc %{_texmfdistdir}/source/latex/schwalbe-chess/schwalbe.dtx
 %doc %{_texmfdistdir}/source/latex/schwalbe-chess/schwalbe.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ turn has a dependency on the bartel-chess-fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
