@@ -1,12 +1,12 @@
-# revision 23471
+# revision 26207
 # category Package
 # catalog-ctan /macros/latex/contrib/schwalbe-chess
-# catalog-date 2011-06-24 10:29:05 +0200
+# catalog-date 2012-05-01 11:47:32 +0200
 # catalog-license lppl1.2
-# catalog-version 1.1
+# catalog-version 1.3
 Name:		texlive-schwalbe-chess
-Version:	1.1
-Release:	2
+Version:	1.3
+Release:	1
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/schwalbe-chess
