@@ -49,3 +49,21 @@ turn has a dependency on the bartel-chess-fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3-1
++ Revision: 805074
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 755800
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 719491
+- texlive-schwalbe-chess
+- texlive-schwalbe-chess
+- texlive-schwalbe-chess
+- texlive-schwalbe-chess
+
