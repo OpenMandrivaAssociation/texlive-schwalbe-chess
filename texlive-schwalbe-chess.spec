@@ -1,11 +1,11 @@
-# revision 26207
+# revision 29941
 # category Package
 # catalog-ctan /macros/latex/contrib/schwalbe-chess
-# catalog-date 2012-05-01 11:47:32 +0200
+# catalog-date 2013-04-14 18:39:07 +0200
 # catalog-license lppl1.2
-# catalog-version 1.3
+# catalog-version 1.5.1
 Name:		texlive-schwalbe-chess
-Version:	1.3
+Version:	1.5.1
 Release:	1
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
@@ -33,6 +33,7 @@ turn has a dependency on the bartel-chess-fonts.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/schwalbe-chess/schwalbe.cls
 %{_texmfdistdir}/tex/latex/schwalbe-chess/schwalbe.sty
 %doc %{_texmfdistdir}/doc/latex/schwalbe-chess/README
 %doc %{_texmfdistdir}/doc/latex/schwalbe-chess/schwalbe.pdf
@@ -49,21 +50,3 @@ turn has a dependency on the bartel-chess-fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3-1
-+ Revision: 805074
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
-+ Revision: 755800
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
-+ Revision: 719491
-- texlive-schwalbe-chess
-- texlive-schwalbe-chess
-- texlive-schwalbe-chess
-- texlive-schwalbe-chess
-
