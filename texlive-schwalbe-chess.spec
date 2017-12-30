@@ -5,8 +5,8 @@
 # catalog-license lppl1.2
 # catalog-version 1.5.1
 Name:		texlive-schwalbe-chess
-Version:	1.5.1
-Release:	9
+Version:	2.1
+Release:	1
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/schwalbe-chess
