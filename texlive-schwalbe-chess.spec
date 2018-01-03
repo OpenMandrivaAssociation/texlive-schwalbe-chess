@@ -1,9 +1,3 @@
-# revision 29941
-# category Package
-# catalog-ctan /macros/latex/contrib/schwalbe-chess
-# catalog-date 2013-04-14 18:39:07 +0200
-# catalog-license lppl1.2
-# catalog-version 1.5.1
 Name:		texlive-schwalbe-chess
 Version:	2.1
 Release:	1
@@ -33,13 +27,10 @@ turn has a dependency on the bartel-chess-fonts.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/schwalbe-chess/schwalbe.cls
-%{_texmfdistdir}/tex/latex/schwalbe-chess/schwalbe.sty
-%doc %{_texmfdistdir}/doc/latex/schwalbe-chess/README
-%doc %{_texmfdistdir}/doc/latex/schwalbe-chess/schwalbe.pdf
+%{_texmfdistdir}/tex/latex/schwalbe-chess
+%doc %{_texmfdistdir}/doc/latex/schwalbe-chess
 #- source
-%doc %{_texmfdistdir}/source/latex/schwalbe-chess/schwalbe.dtx
-%doc %{_texmfdistdir}/source/latex/schwalbe-chess/schwalbe.ins
+%doc %{_texmfdistdir}/source/latex/schwalbe-chess
 
 #-----------------------------------------------------------------------
 %prep
