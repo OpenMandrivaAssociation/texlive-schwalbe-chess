@@ -1,5 +1,5 @@
 Name:		texlive-schwalbe-chess
-Version:	2.1
+Version:	2.2
 Release:	1
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
