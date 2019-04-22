@@ -1,6 +1,6 @@
 Name:		texlive-schwalbe-chess
-Version:	2.2
-Release:	2
+Version:	2.3
+Release:	1
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/schwalbe-chess
