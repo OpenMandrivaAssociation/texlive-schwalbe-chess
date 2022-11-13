@@ -1,13 +1,13 @@
 Name:		texlive-schwalbe-chess
-Version:	2.3
+Version:	63708
 Release:	1
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/schwalbe-chess
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -18,12 +18,12 @@ The package is based on chess-problem-diagrams, which in its
 turn has a dependency on the bartel-chess-fonts.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -34,7 +34,8 @@ turn has a dependency on the bartel-chess-fonts.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
