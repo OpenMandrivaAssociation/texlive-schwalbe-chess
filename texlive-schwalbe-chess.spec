@@ -3,7 +3,7 @@ Version:	63708
 Release:	2
 Summary:	Typeset the German chess magazine "Die Schwalbe"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/schwalbe-chess
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/schwalbe-chess
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schwalbe-chess.doc.r%{version}.tar.xz
